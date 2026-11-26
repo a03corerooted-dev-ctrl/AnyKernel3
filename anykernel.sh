@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=UnnamedKernel
+kernel.string=Barys by a03corerooted-dev-ctrl
 do.devicecheck=0
 do.modules=0
 do.systemless=1
