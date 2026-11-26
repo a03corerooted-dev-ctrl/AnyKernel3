@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Pulsar Kernel
+kernel.string=Pulsar Kernel by @a03corerooted-dev-ctrl
 do.devicecheck=1
 do.modules=0
 do.systemless=1
