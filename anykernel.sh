@@ -4,7 +4,6 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Pulsar Kernel by @a03corerooted-dev-ctrl
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -42,9 +41,9 @@ ui_print "        |____|"
 ui_print "          ||"
 ui_print "       __/||\\__"
 ui_print " "
-ui_print "       PULSAR KERNEL"
-ui_print "       MERLIN  -  MT6768"
-ui_print " "
+ui_print "     PULSAR KERNEL"
+ui_print "   MERLIN  -  MT6768"
+ui_print "by @a03corerooted-dev-ctrl "
 
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
