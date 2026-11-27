@@ -5,7 +5,7 @@
 # begin properties
 properties() { '
 kernel.string=Pulsar Kernel by @a03corerooted-dev-ctrl
-do.devicecheck=1
+do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
@@ -31,6 +31,20 @@ patch_vbmeta_flag=auto;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh && attributes;
+
+# Pulsar space banner
+ui_print " "
+ui_print "          /\\"
+ui_print "         /  \\"
+ui_print "        |    |"
+ui_print "        |    |"
+ui_print "        |____|"
+ui_print "          ||"
+ui_print "       __/||\\__"
+ui_print " "
+ui_print "       PULSAR KERNEL"
+ui_print "       MERLIN  -  MT6768"
+ui_print " "
 
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
